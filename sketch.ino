@@ -2,8 +2,8 @@
 #include <WebServer.h>
 #include "DHT.h"
 
-const char* ssid = "/";
-const char* password = "/";
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 WebServer server(80);
 DHT dht(15, DHT22);
